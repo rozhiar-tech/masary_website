@@ -60,7 +60,7 @@
   --tp-text-2: #8a879f;
   --tp-text-3: #b7b6c4;
   --tp-theme-primary: #171151;
-  --tp-theme-secondary: #10d0a1;
+  --tp-theme-secondary: #0e63ff;
   --tp-theme-blue: #0e63ff;
   --tp-theme-pink: #f72a75;
   --tp-theme-sky: #42bfff;
@@ -68,7 +68,7 @@
   --tp-border-secondary: #d1d6e0;
   --tp-icon-blue: #0e63ff;
   --tp-icon-blue-light: #e7efff;
-  --tp-icon-green: #10d0a1;
+  --tp-icon-green: #0e63ff;
   --tp-icon-green-light: #e7faf6;
   --tp-icon-pink: #f72a75;
   --tp-icon-pink-light: #feeaf1;
@@ -4154,7 +4154,7 @@ div.tp-srv-link a {
   margin: 0 auto;
   text-align: center;
   opacity: 0;
-  visibility: hidden;
+  /* visibility: visible; */
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -8688,4 +8688,3 @@ p.checkout-coupon input[type="text"]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
-

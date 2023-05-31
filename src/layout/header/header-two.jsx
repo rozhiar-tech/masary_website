@@ -122,14 +122,14 @@ const HeaderTwo = () => {
                 <div className="col-lg-5">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
                     <div className="header-cart-list  d-flex align-items-center justify-content-end mr-50">
-                      <button
+                      {/* <button
                         onClick={() => setIsActive(true)}
                         className="tp-menu-toggle mr-40"
                       >
                         <i className="fa-solid fa-list"></i>
-                      </button>
+                      </button> */}
 
-                      <div className="tp-cart-icon-area">
+                      {/* <div className="tp-cart-icon-area">
                         <button>
                           <i className="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -203,15 +203,15 @@ const HeaderTwo = () => {
                             </li>
                           </ul>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
-                    <Link
+                    {/* <Link
                       className="header-bottom-btn"
                       style={{ background: "#215488" }}
                       href="/about"
                     >
                       Book Appointment
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -221,7 +221,7 @@ const HeaderTwo = () => {
       </header>
 
       {/* side bar start */}
-      <Sidebar isActive={isActive} setIsActive={setIsActive} />
+      {/* <Sidebar isActive={isActive} setIsActive={setIsActive} /> */}
       {/* side bar end */}
     </>
   );

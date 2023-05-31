@@ -9,20 +9,26 @@ const About = () => {
     about_img: "/assets/img/about/about-bg-02.png",
     popup_video: "https://www.youtube.com/watch?v=-BpXNPHiB2U",
     about_thumb: "/assets/img/about/about-bg-03.png",
-    title: "Best Laboratory For Testing And Research",
+    title: "Masary for General Trading and Processing",
     sub_title: "About",
     des_1: (
       <>
-        Your full service lab for clinical trials. Our mission is to ensure the
-        generation of accurate and precise findings
+        Masary for General Trading and Processing is a reputable company that
+        has been operating in Iraq since 2004. We specialize in the distribution
+        and processing of high-quality German plastic pipes and fittings for
+        water and drainage systems. With our extensive experience and commitment
+        to excellence, we have established ourselves as a trusted partner in the
+        Iraqi market.
       </>
     ),
     dex_2: (
       <>
-        Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo
-        claritatem insitamconse quat.Exerci tation ullamcorper suscipit loborti
-        excommodo habent claritatem insitamconse quat.Exerci tationlobortis nisl
-        aliquip ex ea commodo habent claritatem insitamconse quat.
+        At Masary, our mission is to provide superior products and services that
+        meet the highest standards of quality and reliability. We strive to be a
+        leading supplier of German plastic pipes and fittings, offering
+        innovative solutions for water and drainage systems across Iraq. Our
+        goal is to contribute to the development of sustainable infrastructure
+        that supports the growth and well-being of local communities.
       </>
     ),
     btn: "Talk with Expart",
@@ -36,7 +42,7 @@ const About = () => {
       </>
     ),
     b_btn: "Book Now",
-    b_img: "/assets/img/shape/logo-shape-1.png",
+    b_img: "/assets/img/logo/logo2.png",
   };
   const {
     about_bg,
@@ -102,7 +108,11 @@ const About = () => {
                     <p className=" mr-20 mb-35">{dex_2}</p>
                   </div>
                   <div className="about-content__btn">
-                    <Link href="/about" className="tp-btn">
+                    <Link
+                      href="/about"
+                      className="tp-btn"
+                      style={{ backgroundColor: "#215488" }}
+                    >
                       {btn}
                     </Link>
                   </div>
@@ -129,7 +139,12 @@ const About = () => {
                     </div>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
-                      <button className="tp-btn-second">{b_btn}</button>
+                      <button
+                        className="tp-btn-second"
+                        style={{ backgroundColor: "#215488" }}
+                      >
+                        {b_btn}
+                      </button>
                     </div>
                     <div className="cta-shape d-none d-md-block">
                       <img src={b_img} alt="cta-logo-shape" />

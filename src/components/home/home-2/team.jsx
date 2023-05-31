@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 // slider setting
 const setting = {
   slidesPerView: 4,
@@ -45,7 +44,7 @@ const Team = () => {
   }, []);
   return (
     <>
-      <section className="team-area pb-55">
+      {/* <section className="team-area pb-55">
         <div className="container">
           <div className="p-relative">
             <div className="row">
@@ -100,7 +99,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

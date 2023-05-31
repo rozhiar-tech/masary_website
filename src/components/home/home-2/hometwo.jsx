@@ -23,9 +23,9 @@ const HomeTwo = () => {
       <Choose />
       <Appointment />
       <Brands border_style={true} />
-      <Team />
-      <Testimonial bg_img={true} />
-      <Blog />
+      {/* <Team /> */}
+      {/* <Testimonial bg_img={true} /> */}
+      {/* <Blog /> */}
       <NewsLetter />
     </>
   );

@@ -1,43 +1,43 @@
 $colors: (
-    common: (
-        white: #ffffff,
-        black: #000,
-    ),
-    heading: (
-        primary: #171151,
-    ),
-    grey: (
-        1:#F2F5FA,
-    ),
-    text: (
-        body:#171151,
-        1:#A9B7D1,
-        2:#8A879F,
-        3: #B7B6C4,
-    ),
-    theme: (
-        primary: #171151,
-        secondary: #10D0A1,
-        blue:#0E63FF,
-        pink: #F72A75,
-        sky: #42BFFF,
-    ),
-    border: (
-        primary: #ECEEF3,
-        secondary:#D1D6E0,
-    ),
-    icon:(
-        blue:#0E63FF,
-        blue-light:#E7efFF,
-        green: #10D0A1,
-        green-light: #E7FAF6,
-        pink: #F72A75,
-        pink-light: #FEEAf1,
-        sky: #42BFFF,
-        sky-light: #ECF9FF,
-        red:#FF0000,
-        tweet:#1DA1F2,
-        fb:#4267B2,
-        skype:#00A6E4,
-    )
+  common: (
+    white: #ffffff,
+    black: #000,
+  ),
+  heading: (
+    primary: #171151,
+  ),
+  grey: (
+    1: #f2f5fa,
+  ),
+  text: (
+    body: #171151,
+    1: #a9b7d1,
+    2: #8a879f,
+    3: #b7b6c4,
+  ),
+  theme: (
+    primary: #171151,
+    secondary: #215488,
+    blue: #215488,
+    pink: #f72a75,
+    sky: #42bfff,
+  ),
+  border: (
+    primary: #eceef3,
+    secondary: #d1d6e0,
+  ),
+  icon: (
+    blue: #215488,
+    blue-light: #e7efff,
+    green: #215488,
+    green-light: #e7faf6,
+    pink: #f72a75,
+    pink-light: #feeaf1,
+    sky: #42bfff,
+    sky-light: #ecf9ff,
+    red: #ff0000,
+    tweet: #1da1f2,
+    fb: #4267b2,
+    skype: #00a6e4,
+  ),
 );

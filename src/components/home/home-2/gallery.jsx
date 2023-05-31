@@ -1,44 +1,43 @@
 import Link from "next/link";
 import React from "react";
 
-
 // gallery_content_data
 const gallery_content_data = [
   {
     id: 1,
     class: "col-lg-4 col-md-6",
     img: "/assets/img/gallery/gallery-thumb-bg-1.jpg",
-    title: "COVID ANALYSIS",
+    title: "Cold and hot water installations",
   },
   {
     id: 2,
     class: "col-lg-8 col-md-6 d-none d-lg-block",
     img: "/assets/img/gallery/gallery-thumb-bg-2.jpg",
-    title: "Hiv Analysis & Testing",
+    title: "Drainage Installation",
   },
   {
     id: 3,
     class: "col-lg-4 col-md-6",
     img: "/assets/img/gallery/gallery-thumb-bg-3.jpg",
-    title: "Zyrtec Analysis",
+    title: "Plastic sewer pipe called (HT safe)",
   },
   {
     id: 4,
     class: "col-lg-4 col-md-6",
     img: "/assets/img/gallery/gallery-thumb-bg-4.jpg",
-    title: "Asthma Apply",
+    title: "Plastic sewer pipe called (UPVC)",
   },
   {
     id: 5,
     class: "col-lg-4 col-md-6",
     img: "/assets/img/gallery/gallery-thumb-bg-5.jpg",
-    title: "Urine ANALYSIS",
+    title: "Plastic sewer pipe called Skolan Safe (silent)",
   },
   {
     id: 6,
     class: "col-lg-8 col-md-12 d-lg-none",
     img: "/assets/img/gallery/gallery-thumb-bg-2.jpg",
-    title: "Urine ANALYSIS",
+    title: "Plastic sewer pipe called Skolan Safe (silent)",
   },
 ];
 
@@ -60,7 +59,7 @@ const Gallery = () => {
                     Work Gallery
                   </span>
                   <h3 className="tp-section__title title-white mb-80">
-                    Bioxlab Gallery
+                    Masary
                   </h3>
                 </div>
               </div>
