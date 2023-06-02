@@ -6,37 +6,49 @@ const gallery_content_data = [
   {
     id: 1,
     class: "col-lg-4 col-md-6",
-    img: "/assets/img/gallery/gallery-thumb-bg-1.jpg",
-    title: "Cold and hot water installations",
+    img: "/assets/img/gallery/1.jpg",
+    title: "Grand Melinum Hotel",
   },
   {
     id: 2,
     class: "col-lg-8 col-md-6 d-none d-lg-block",
-    img: "/assets/img/gallery/gallery-thumb-bg-2.jpg",
-    title: "Drainage Installation",
+    img: "/assets/img/gallery/3.jpg",
+    title: "Grand Melinum spa",
   },
   {
     id: 3,
     class: "col-lg-4 col-md-6",
-    img: "/assets/img/gallery/gallery-thumb-bg-3.jpg",
-    title: "Plastic sewer pipe called (HT safe)",
+    img: "/assets/img/gallery/4.jpg",
+    title: "Rand Gallery",
   },
   {
     id: 4,
     class: "col-lg-4 col-md-6",
-    img: "/assets/img/gallery/gallery-thumb-bg-4.jpg",
-    title: "Plastic sewer pipe called (UPVC)",
+    img: "/assets/img/gallery/5.jpg",
+    title: "City Towers",
   },
   {
     id: 5,
     class: "col-lg-4 col-md-6",
-    img: "/assets/img/gallery/gallery-thumb-bg-5.jpg",
-    title: "Plastic sewer pipe called Skolan Safe (silent)",
+    img: "/assets/img/gallery/6.jpg",
+    title: "Imperial Village",
   },
   {
     id: 6,
     class: "col-lg-8 col-md-12 d-lg-none",
-    img: "/assets/img/gallery/gallery-thumb-bg-2.jpg",
+    img: "/assets/img/gallery/7.jpg",
+    title: "Plastic sewer pipe called Skolan Safe (silent)",
+  },
+  {
+    id: 7,
+    class: "col-lg-8 col-md-12 d-lg-none",
+    img: "/assets/img/gallery/7.jpg",
+    title: "Plastic sewer pipe called Skolan Safe (silent)",
+  },
+  {
+    id: 8,
+    class: "col-lg-8 col-md-12 d-lg-none",
+    img: "/assets/img/gallery/7.jpg",
     title: "Plastic sewer pipe called Skolan Safe (silent)",
   },
 ];
@@ -79,21 +91,12 @@ const Gallery = () => {
                       </h4>
                       <span>
                         <i className="fa-solid fa-tag"></i>
-                        <Link href="/services-details">Genetics</Link>
+                        <Link href="">Masary</Link>
                       </span>
                     </div>
                   </div>
                 </div>
               ))}
-            </div>
-            <div className="row">
-              <div className="col-lg-12">
-                <div className="gallery-btn text-center mt-30">
-                  <Link href="/portfolio-details" className="tp-btn">
-                    Explore More
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         </div>

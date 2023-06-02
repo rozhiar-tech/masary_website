@@ -63,12 +63,12 @@ const HeroBanner = () => {
                 <h2 className="banner__title mb-30">{title}</h2>
                 <p>{des}</p>
                 <div className="banner__btn">
-                  <Link className="tp-btn" href="/contact">
+                  {/* <Link className="tp-btn" href="/contact">
                     {btn_text1}
                   </Link>
                   <Link className="tp-btn-second ml-25" href="/about">
                     {btn_text2}
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="banner__box-item">

@@ -1,6 +1,9 @@
 import { Progress } from "antd";
 import React from "react";
 import "react-circular-progressbar/dist/styles.css";
+import Image from "next/image";
+
+import helmetImage from "./assets/helmet.png";
 
 const Choose = () => {
   return (
@@ -20,90 +23,41 @@ const Choose = () => {
               </div>
             </div>
           </div>
-          <div className="row ">
-            <div className="col-xl-3 col-lg-6 col-md-6">
+          <div className="row">
+            <div className="col-xl-7 col-md-6">
               <div
-                className="experience-item text-center mb-50 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="progress-circular tl-progress">
-                  <div
-                    className="d-flex align-items-center justify-content-center"
-                  >
-                    
-                    <Progress
-                      type="circle"
-                      percent={80}
-                      width={165}
-                      height={165}
-                      strokeWidth={3.2}
-                      style={{ fontSize: 33 }}
-                    />
-                   
-                  </div>
-                  
-                </div>
-                <span className="skill-item-title">MEDICAL RESEARCH</span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6 col-md-6">
-              <div
-                className="experience-item text-center mb-50 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div className="progress-circular tl-progress">
-                  <Progress
-                    type="circle"
-                    percent={75}
-                    width={165}
-                    height={165}
-                    strokeWidth={3.2}
-                    strokeColor={"#F72A75"}
-                    style={{ fontSize: 33 }}
-                  />
-                  
-                </div>
-                <span className="skill-item-title">BIOTECHNOLOGY</span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6 col-md-6">
-              <div
-                className="experience-item text-center mb-50 wow fadeInUp"
-                data-wow-delay=".6s"
-              >
-                <div className="progress-circular tl-progress">
-                  <Progress
-                    type="circle"
-                    percent={90}
-                    width={165}
-                    height={165}
-                    strokeWidth={3.2}
-                    strokeColor={"#42BFFF"}
-                    style={{ fontSize: 33 }}
-                  />
-                  
-                </div>
-                <span className="skill-item-title">HISTOPATOLOGY</span>
-              </div>
-            </div>
-            <div className="col-xl-3 col-lg-6 col-md-6">
-              <div
-                className="experience-item text-center mb-50 wow fadeInUp"
+                className="tp-choose__item ml-75 mb-100 wow fadeInUp"
                 data-wow-delay=".8s"
               >
-                <div className="progress-circular tl-progress">
-                  <Progress
-                    type="circle"
-                    percent={55}
-                    width={165}
-                    height={165}
-                    strokeWidth={3.2}
-                    strokeColor={"#10D0A1"}
-                    fontSize={133}
-                  />
-                 
+                <div className={`tp-choose__icon mb-40`}>
+                  <Image src={helmetImage} alt="icon" width={50} height={50} />
                 </div>
-                <span className="skill-item-title">ALLERGOLOGY</span>
+                <div className="tp-choose__content">
+                  <h4 className="tp-choose__title mb-20 text-black">
+                    High Quality <br />
+                    Services
+                  </h4>
+                  <p className="h2">
+                    When it comes to selecting a reliable and efficient partner
+                    for your trading and processing needs, Masary Company for
+                    General Trading and Processing Ltd stands out as the ideal
+                    choice. With a proven track record and years of industry
+                    experience, we have established ourselves as a leader in the
+                    field. Our commitment to excellence and customer
+                    satisfaction is unwavering, ensuring that your business
+                    needs are met with the utmost professionalism and attention
+                    to detail. We boast a highly skilled team of experts who
+                    possess deep knowledge and expertise in the trading and
+                    processing sector, enabling us to offer tailored solutions
+                    to meet your specific requirements. Additionally, we have
+                    built a vast network of trusted suppliers and partners,
+                    allowing us to source high-quality products at competitive
+                    prices, ensuring maximum value for your investment. Our
+                    state-of-the-art facilities and cutting-edge technology
+                    ensure efficient processing and timely delivery,
+                    guaranteeing that your orders are handled with precision
+                  </p>
+                </div>
               </div>
             </div>
           </div>

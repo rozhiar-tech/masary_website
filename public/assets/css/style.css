@@ -4104,7 +4104,7 @@ div.tp-srv-link a {
 }
 
 .gallery-item-bg {
-  margin-top: -215px;
+  margin-top: -115px;
 }
 
 .gallery-item img {
@@ -8688,3 +8688,21 @@ p.checkout-coupon input[type="text"]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.services-container {
+  background-color: #0055f1;
+  display: flex;
+  justify-content: center;
+  /* grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  grid-template-areas:
+    "services-title services-title services-title services-title services-title"
+    "services-title services-title services-title services-title services-title"
+    "services-title services-title services-title services-title services-title"
+    "services-title services-title services-title services-title services-title"
+    "services-title services-title services-title services-title services-title"; */
+}

@@ -3,7 +3,7 @@ import React from "react";
 const Appointment = () => {
   return (
     <>
-      <section
+      {/* <section
         className="appoinment-area grey-bg mb-50 tp-box-space ml-30 mr-30"
         style={{ backgroundImage: `url("/assets/img/shape/shape-bg-08.png")` }}
       >
@@ -76,7 +76,7 @@ const Appointment = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

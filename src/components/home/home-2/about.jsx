@@ -6,7 +6,7 @@ const About = () => {
   // about content data
   const about_content = {
     about_bg: "/assets/img/shape/shape-bg-05.png",
-    about_img: "/assets/img/about/about-bg-02.png",
+    about_img: "/assets/img/about/new.jpg",
     popup_video: "https://www.youtube.com/watch?v=-BpXNPHiB2U",
     about_thumb: "/assets/img/about/about-bg-03.png",
     title: "Masary for General Trading and Processing",
@@ -81,17 +81,17 @@ const About = () => {
                 >
                   <img src={about_img} alt="about-thumb" />
                   <div className="about-video">
-                    <button
+                    {/* <button
                       onClick={() => setIsVideoOpen(true)}
                       className="popup-video"
                       href={popup_video}
                     >
                       <i className="fa-solid fa-play"></i>
-                    </button>
+                    </button> */}
                   </div>
-                  <div className="about-thumb-shape d-none d-md-block">
+                  {/* <div className="about-thumb-shape d-none d-md-block">
                     <img src={about_thumb} alt="about-shape" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-xl-6 col-lg-12 col-12">
@@ -107,7 +107,7 @@ const About = () => {
                     <i>{des_1}</i>
                     <p className=" mr-20 mb-35">{dex_2}</p>
                   </div>
-                  <div className="about-content__btn">
+                  {/* <div className="about-content__btn">
                     <Link
                       href="/about"
                       className="tp-btn"
@@ -115,13 +115,13 @@ const About = () => {
                     >
                       {btn}
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="cta-area pt-75 ">
+        {/* <div className="cta-area pt-75 ">
           <div className="container">
             <div className="row wow fadeInUp" data-wow-delay=".3s">
               <div className="col-lg-12">
@@ -154,7 +154,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* video modal start */}

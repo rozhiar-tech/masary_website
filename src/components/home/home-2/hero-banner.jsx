@@ -11,34 +11,11 @@ const hero_slider = [
         Our Passion is to <br /> Give you Better <br /> Service
       </>
     ),
-    des: (
-      <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
-      </>
-    ),
+    des: <>Our products provide a long lasting life services for you</>,
     appointment: "Appointment",
     about: "About us",
-    img_1: "/assets/img/slider/slider-bg-1.png",
-    img_2: "/assets/img/slider/slider-bg-2.png",
-  },
-  {
-    id: 2,
-    title: (
-      <>
-        Our Passion is to <br /> Give you Better <br /> Service
-      </>
-    ),
-    des: (
-      <>
-        Your full service lab for clinical trials. Our mission is to ensure the{" "}
-        <br /> generation of accurate and precise findings
-      </>
-    ),
-    appointment: "Appointment",
-    about: "About us",
-    img_1: "/assets/img/slider/slider-bg-3.png",
-    img_2: "/assets/img/slider/slider-bg-2.png",
+    img_1: "/assets/img/slider/new.jpg",
+    // img_2: "/assets/img/slider/slider-bg-2.png",
   },
 ];
 
@@ -59,27 +36,27 @@ const setting = {
 
 // social_links
 const social_links = [
-  {
-    name: "facebook",
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    color: "facebook-2",
-  },
-  {
-    name: "youtube",
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    color: "youtub-2",
-  },
-  {
-    name: "twitter",
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter",
-    color: "twitter-2",
-  },
+  // {
+  //   name: "facebook",
+  //   link: "http://facebook.com",
+  //   target: "_blank",
+  //   icon: "fab fa-facebook-f",
+  //   color: "facebook-2",
+  // },
+  // {
+  //   name: "youtube",
+  //   link: "https://www.youtube.com/",
+  //   target: "_blank",
+  //   icon: "fab fa-youtube",
+  //   color: "youtub-2",
+  // },
+  // {
+  //   name: "twitter",
+  //   link: "http://twitter.com",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter",
+  //   color: "twitter-2",
+  // },
 ];
 const HeroBanner = () => {
   const [isLoop, setIsLoop] = useState(false);
@@ -106,16 +83,16 @@ const HeroBanner = () => {
                   ))}
                 </div>
               </div>
-              <div className="col-lg-6 col-md-2 col-12 d-none d-md-block">
-                <div className="slider-content__arrow d-flex align-items-center">
-                  <div className="slider-p">
-                    <i className="fa-regular fa-arrow-left"></i>
+              {/* <div className="col-lg-6 col-md-2 col-12 d-none d-md-block">
+                  <div className="slider-content__arrow d-flex align-items-center">
+                    <div className="slider-p">
+                      <i className="fa-regular fa-arrow-left"></i>
+                    </div>
+                    <div className="slider-n">
+                      <i className="fa-regular fa-arrow-right"></i>
+                    </div>
                   </div>
-                  <div className="slider-n">
-                    <i className="fa-regular fa-arrow-right"></i>
-                  </div>
-                </div>
-              </div>
+                </div> */}
             </div>
           </div>
         </div>
@@ -130,29 +107,29 @@ const HeroBanner = () => {
               <div className="swiper-slide bg-white">
                 <div className="container">
                   <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12 col-12 order-2 order-lg-1">
+                    <div className="col-lg-4 col-md-12 col-12 order-2 order-lg-1">
                       <div className="slider-content pt-60">
-                        <h2 className="slider-content__title mb-45">
+                        <h2 className="slider-content__title mb-15">
                           {item.title}
                         </h2>
                         <p>{item.des}</p>
                         <div className="slider-content__btn mb-165">
-                          <Link className="tp-btn" href="/contact">
+                          {/* <Link className="tp-btn" href="/contact">
                             {item.appointment}
                           </Link>
                           <Link className="tp-btn-second ml-25" href="/about">
                             {item.about}
-                          </Link>
+                          </Link> */}
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
+                    <div className="col-lg-8 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
                         <img src={item.img_1} alt="slider-img" />
                       </div>
-                      <div className="slider-content__shape d-none d-md-block">
+                      {/* <div className="slider-content__shape d-none d-md-block">
                         <img src={item.img_2} alt="slider-shape" />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

@@ -2,7 +2,6 @@ import Count from "@/common/count";
 import Link from "next/link";
 import React from "react";
 
-
 // content
 const content = {
   left_img: "assets/img/about/about-bg-01.png",
@@ -16,7 +15,7 @@ const content = {
   title: "About",
   section_title: "Best Laboratory For Testing And Research",
   section_sub_title:
-    " Your full service lab for clinical trials. Our mission is to ensure the generation of accurate and precise findings",
+    " Our products provide a long lasting life services for you",
   section_des: (
     <>
       Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo

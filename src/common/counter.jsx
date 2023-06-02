@@ -29,10 +29,10 @@ const counter_text = [
   },
 ];
 
-const Counter = ({ cls = "pt-40 pb-100"  }) => {
+const Counter = ({ cls = "pt-40 pb-100" }) => {
   return (
     <>
-      <section className={`counter-area ${cls}`}>
+      {/* <section className={`counter-area ${cls}`}>
         <div className="container">
           <div className="row">
             {counter_text.map((item) => (
@@ -57,7 +57,7 @@ const Counter = ({ cls = "pt-40 pb-100"  }) => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

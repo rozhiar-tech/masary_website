@@ -1,8 +1,30 @@
 import service_data from "@/data/service";
 import Link from "next/link";
 import React from "react";
+import helmetImage from "./assets/1.jpg";
+import Image from "next/image";
+import { useState } from "react";
+// import "../../../../public/assets/css/custome.css";
 
 const Service = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentItem, setCurrentItem] = useState(null);
+  function Modal({ item, isOpen, setIsOpen }) {
+    if (!isOpen) return null;
+
+    return (
+      <div className="modal">
+        <div className="modal-content">
+          <span className="close" onClick={() => setIsOpen(false)}>
+            &times;
+          </span>
+          <img src={item.image} alt="helmet" />
+          <h1>{item.title}</h1>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <>
       <section className="services-area pt-120 pb-75">
@@ -13,7 +35,7 @@ const Service = () => {
                 <span className="tp-section__sub-title left-line mb-20">
                   our Services
                 </span>
-                <h3 className="tp-section__title mb-30">Service Area</h3>
+                <h3 className="tp-section__title mb-30">Our products</h3>
               </div>
             </div>
             <div className="col-lg-7 col-md-12 col-12">
@@ -28,7 +50,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row">
-            {service_data.map((item) => (
+            {/* {service_data.map((item) => (
               <div key={item.id} className="col-xl-3 col-lg-4 col-md-6">
                 <div
                   className={`services-item tp-services-item mb-50 ml-${item.ml} wow fadeInUp`}
@@ -47,7 +69,25 @@ const Service = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            ))} */}
+            <div className="main-one">
+              {service_data.map((item) => (
+                <div key={item.id} className="services-container">
+                  <Image
+                    src={item.image}
+                    alt="helmet"
+                    onClick={() => {
+                      setIsOpen(true);
+                      setCurrentItem(item);
+                    }}
+                    width={400}
+                    height={400}
+                  />
+                  <h1 className="hidden-text">{item.title}</h1>
+                </div>
+              ))}
+              <Modal item={currentItem} isOpen={isOpen} setIsOpen={setIsOpen} />
+            </div>
           </div>
         </div>
       </section>

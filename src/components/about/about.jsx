@@ -15,9 +15,9 @@ const About = () => {
       <Banner />
       <AboutArea />
       <Counter />
-      <Specialists />
+      {/* <Specialists />
       <NavTab />
-      <Team />
+      <Team /> */}
       <FooterFour />
     </>
   );
