@@ -2,16 +2,15 @@ import Link from "next/link";
 import React from "react";
 import ContactUs from "../forms/contact-us";
 
-
 // contact_info
 const contact_info = {
   address: (
     <>
-      Bowery St, New York, NY <br /> 10013,USA
+      Erbil <br /> 100M Road near Karkuk Bridge
     </>
   ),
-  phone_1: "+1255 - 568 - 6523",
-  phone_2: "+1255 - 568 - 6523",
+  phone_1: "0750 333 6020",
+  // phone_2: "+1255 - 568 - 6523",
   open: (
     <>
       Monday - Friday <br />

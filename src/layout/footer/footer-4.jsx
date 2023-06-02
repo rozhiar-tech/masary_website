@@ -21,23 +21,17 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__content mb-95">
                       <i>FEEL FREE TO CONTACT US</i>
                       <h4 className="tp-footer-widget__contact mb-20">
-                        <a href="tel:61383766284">61 383 766 284</a>
+                        <a href="tel:0750 333 6020">0750 333 6020</a>
                       </h4>
+                      <h4 className="tp-footer-widget__contact mb-20">
+                        <a href="tel:0750 333 6020">0773 903 2525</a>
+                      </h4>
+
                       <a href="mailto:noreply@envato.com">noreply@envato.com</a>
-                    </div>
-                    <div className="tp-footer-widget__sub-sec">
-                      <span className="tp-footer-widget__sub-title mb-5">
-                        Career
-                      </span>
-                      <p>
-                        Nam eget dui vel quam sodales semper quis porttitor{" "}
-                        <br /> tortor. Vivamus quis ex nulla ...Nam eget dui vel
-                        quam <br /> sodales semper quis porttitor tortor.
-                      </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-3 col-md-6">
+                <div className="col-lg-3 col-md-6">
                   <div
                     className="tp-footer-widget footer-2-col-2 mb-40 wow fadeInUp"
                     data-wow-delay=".4s"
@@ -52,18 +46,6 @@ const FooterFour = ({ style_2 = false }) => {
                         </li>
                         <li>
                           <Link href="/about">Help & About us</Link>
-                        </li>
-                        <li>
-                          <Link href="/contact">Shipping & Returns</Link>
-                        </li>
-                        <li>
-                          <Link href="/contact">Refund Policy</Link>
-                        </li>
-                        <li>
-                          <Link href="/about">About us</Link>
-                        </li>
-                        <li>
-                          <Link href="/services-details">Services</Link>
                         </li>
                       </ul>
                     </div>
@@ -81,7 +63,7 @@ const FooterFour = ({ style_2 = false }) => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-2 col-lg-2 col-md-6">
+                {/* <div className="col-lg-2 col-md-6">
                   <div
                     className="tp-footer-widget footer-2-col-3 mb-40 wow fadeInUp"
                     data-wow-delay=".6s"
@@ -95,10 +77,10 @@ const FooterFour = ({ style_2 = false }) => {
                           <a href="#">Orders</a>
                         </li>
                         <li>
-                          <a href="#">Downloads</a>
+                          <a href="#">Product</a>
                         </li>
                         <li>
-                          <a href="#">Shipping & Returns</a>
+                          <a href="shop-details">Shipping & Returns</a>
                         </li>
                         <li>
                           <a href="#">Addresses</a>
@@ -107,28 +89,28 @@ const FooterFour = ({ style_2 = false }) => {
                           <a href="#">Account details</a>
                         </li>
                         <li>
-                          <a href="#">Logout</a>
+                          <a href="#">Shop</a>
                         </li>
                         <li>
                           <a href="#">Lost password</a>
                         </li>
                         <li>
-                          <a href="#">Privacy</a>
+                          <a href="#">Account</a>
                         </li>
                         <li>
-                          <a href="#">Policy</a>
+                          <a href="#">Downloads</a>
                         </li>
                         <li>
-                          <a href="#">Careers</a>
+                          <a href="#">Orders</a>
                         </li>
                         <li>
-                          <a href="#">Support</a>
+                          <a href="#">Logout</a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                </div>
-                <div className="col-xl-3 col-lg-3 col-md-6">
+                </div> */}
+                <div className="col-lg-3 col-md-6">
                   <div
                     className="tp-footer-widget footer-2-col-4 mb-40 wow fadeInUp"
                     data-wow-delay=".8s"
@@ -138,11 +120,9 @@ const FooterFour = ({ style_2 = false }) => {
                     </span>
                     <div className="tp-footer-widget__links mb-120">
                       <ul>
-                        <li>Ta-134/A, Gulshan Badda Link </li>
+                        <li>Erbil 100M Road near Karkuk Bridge </li>
                         <li>
-                          <a href="tel:(+880)15569569365">
-                            (+880)155 69569 365
-                          </a>
+                          <a href="tel:(+964)750 333 6020">0750 333 6020</a>
                         </li>
                         <li>
                           <a href="mailto:support@rstheme.com">
@@ -154,20 +134,12 @@ const FooterFour = ({ style_2 = false }) => {
                       </ul>
                     </div>
                     <div className="tp-footer-widget__social fw-social">
-                      <a href="#">
+                      <a href="https://www.facebook.com/MasaryCompanySuli">
                         <i className="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a href="#">
-                        <i className="fa-brands fa-twitter"></i>
-                      </a>
+
                       <a href="#">
                         <i className="fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-light fa-basketball"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-youtube"></i>
                       </a>
                     </div>
                   </div>
@@ -181,7 +153,6 @@ const FooterFour = ({ style_2 = false }) => {
                 <div className="col-xl-6 col-lg-6 col-md-12 col-12">
                   <div className="footer-widget__copyright copyright-white">
                     <span>
-                     
                       © Copyright © {new Date().getFullYear()}
                       <a href="index"> Theme_pure</a>.
                       <i> All Rights Reserved Copyright</i>

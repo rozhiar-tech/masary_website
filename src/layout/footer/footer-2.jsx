@@ -150,7 +150,7 @@ const FooterTwo = () => {
                   <div className="footer-widget__copyright copyright-white">
                     <span>
                       © Copyright ©{new Date().getFullYear()}
-                      <Link href="/"> Theme_pure</Link>.
+                      <Link href="/"> Masary</Link>.
                       <i> All Rights Reserved Copyright</i>
                     </span>
                   </div>

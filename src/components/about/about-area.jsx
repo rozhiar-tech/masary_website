@@ -16,7 +16,7 @@ const AboutArea = () => {
                 <div className="tp-ab-img d-flex">
                   <div className="tp-ab-main-img p-relative">
                     <img
-                      src="/assets/img/about/about-bg-04.jpg"
+                      src="/assets/img/about/about-bg-04.png"
                       alt="about-thumb"
                     />
                     <div className="about__exprience tp-ab-counter">
@@ -37,7 +37,7 @@ const AboutArea = () => {
                     />
                     <img
                       className="ab-shape-two"
-                      src="/assets/img/about/about-bg-06.jpg"
+                      src="/assets/img/about/about.png"
                       alt=""
                     />
                   </div>
