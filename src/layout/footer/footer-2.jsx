@@ -121,9 +121,7 @@ const FooterTwo = () => {
                           <a href="tel:(+964)750 333 6020">0750 333 6020</a>
                         </li>
                         <li>
-                          <a href="mailto:support@rstheme.com">
-                            support@rstheme.com
-                          </a>
+                          <a href="mailto:info@masary.com">info@masary.com</a>
                         </li>
                         <li>Office Hours: 8AM - 11PM</li>
                         <li>Sunday - Wekend Day</li>

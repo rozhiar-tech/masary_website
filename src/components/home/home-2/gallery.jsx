@@ -42,13 +42,13 @@ const gallery_content_data = [
   {
     id: 7,
     class: "col-lg-8 col-md-12 d-lg-none",
-    img: "/assets/img/gallery/7.jpg",
+    img: "/assets/img/gallery/8.jpg",
     title: "Plastic sewer pipe called Skolan Safe (silent)",
   },
   {
     id: 8,
     class: "col-lg-8 col-md-12 d-lg-none",
-    img: "/assets/img/gallery/7.jpg",
+    img: "/assets/img/gallery/9.jpg",
     title: "Plastic sewer pipe called Skolan Safe (silent)",
   },
 ];
