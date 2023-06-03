@@ -71,7 +71,7 @@ const Gallery = () => {
                     Work Gallery
                   </span>
                   <h3 className="tp-section__title title-white mb-80">
-                    Masary
+                    PartnerShip
                   </h3>
                 </div>
               </div>
@@ -89,10 +89,10 @@ const Gallery = () => {
                       <h4 className="gallery-item__title">
                         <Link href="/portfolio-details">{item.title}</Link>
                       </h4>
-                      <span>
+                      {/* <span>
                         <i className="fa-solid fa-tag"></i>
                         <Link href="">Masary</Link>
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                 </div>
