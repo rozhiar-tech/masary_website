@@ -72,14 +72,16 @@ const Service = () => {
             ))} */}
             <div className="main-one">
               {service_data.map((item) => (
-                <div key={item.id} className="services-container">
+                <div
+                  key={item.id}
+                  className="services-container"
+                  onClick={() => {
+                    window.location.href = "/product-details";
+                  }}
+                >
                   <Image
                     src={item.image}
                     alt="helmet"
-                    onClick={() => {
-                      setIsOpen(true);
-                      setCurrentItem(item);
-                    }}
                     width={400}
                     height={400}
                   />

@@ -2609,7 +2609,7 @@ input[type="color"] {
   }
 }
 .slider-content__title {
-  font-size: 57px;
+  font-size: 32px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-content__title {

@@ -1,7 +1,7 @@
 const service_data = [
   {
     id: 1,
-    image: "/assets/1.jpg",
+    image: "/assets/img/services/1.jpg",
     icon: "flaticon-hemoglobin-test-meter",
     title: "Cold and hot water installations",
     des: (
@@ -20,7 +20,7 @@ const service_data = [
   },
   {
     id: 2,
-    image: "/assets/1.jpg",
+    image: "/assets/img/services/2.jpg",
     icon: "flaticon-blood-test",
     title: "Drainage Installation",
     des: (
@@ -39,7 +39,7 @@ const service_data = [
   },
   {
     id: 3,
-    image: "/assets/1.jpg",
+    image: "/assets/img/services/3.jpg",
     icon: "flaticon-biochemistry",
     title: "Plastic sewer pipe called (UPVC)",
     des: (
@@ -59,7 +59,7 @@ const service_data = [
   },
   {
     id: 4,
-    image: "/assets/1.jpg",
+    image: "/assets/img/services/4.jpg",
     icon: "flaticon-dna-1",
     title: "Plastic sewer pipe called (HT safe)",
     des: (
