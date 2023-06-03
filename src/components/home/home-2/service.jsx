@@ -40,12 +40,12 @@ const Service = () => {
             </div>
             <div className="col-lg-7 col-md-12 col-12">
               <div className="services-link text-md-start text-lg-end mb-30">
-                <span>
+                {/* <span>
                   Well ensure you always get the best results:
                   <Link href="/contact">
                     Contact us<i className="fa-solid fa-arrow-right"></i>
                   </Link>
-                </span>
+                </span> */}
               </div>
             </div>
           </div>

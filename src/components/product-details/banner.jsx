@@ -19,9 +19,9 @@ const Banner = () => {
             </div>
             <div className="col-xl-5 col-lg-12 col-md-12 col-12">
               <div className="tp-breadcrumb__link text-xl-end">
-                <span>
+                {/* <span>
                   Masary : <Link href="/shop-details"> Shop</Link>
-                </span>
+                </span> */}
               </div>
             </div>
           </div>
